@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# 🌟 Astro Guru Goutam Chakraborty – Astrology Website  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean and modern astrology website built with **React + TailwindCSS**.  
+Designed for **Astro Guru Goutam Chakraborty**, a Vedic astrologer from Kolkata with 28+ years of experience in Astrology, Tantra, Mantra, Vastu Shastra, and Horoscope Reading.  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
+- 🎉 **Hero Banner** with cover photo, tagline, and call-to-action buttons  
+- 🙏 **About Section** with profile photo & biography  
+- 🌙 **Rashi Section** – 12 moon signs with symbols and traits  
+- 🎥 **Videos Section** – embedded YouTube videos  
+- 📞 **Contact Section** – WhatsApp Business, Call, Email, Location  
+- 🔗 **Social Media Links** – Facebook & Instagram  
+- 📱 Fully responsive (works on mobile & desktop)  
+- 🚀 Free hosting on **Netlify**  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
+- **React** (Create React App)  
+- **TailwindCSS** (CDN)  
+- **Netlify** (deployment)  
+- **GitHub** (version control)  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Getting Started (Local Development)
+Clone this repo and run it locally:  
+```bash
+git clone https://github.com/YOUR_USERNAME/Astrology-Website.git
+cd Astrology-Website
+npm install
+npm start
+The app will open at http://localhost:3000
+.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🌐 Deployment
 
-### `npm run build`
+This site is live at:
+👉 https://astrology-website.netlify.app
+ (replace with your real Netlify URL after deployment)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📸 Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+(Add screenshots of the website here for extra polish.)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📞 Contact
 
-### `npm run eject`
+Astro Guru Goutam Chakraborty
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📲 WhatsApp Business: +91 9875605769
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📞 Call: +91 9748289424
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+✉️ Email: goutamchakraborty.astro@gmail.com
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🔗 Facebook: Profile
 
-## Learn More
+🔗 Instagram: @goutam_chakraborty_astro
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📍 Location: Kolkata, India
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🔮 SEO Keywords
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Astrologer in Kolkata, Daily Rashifal in Bengali, Vedic Astrology, Horoscope Reading, Remedies, Vastu Shastra
