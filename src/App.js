@@ -130,45 +130,82 @@ function Videos() {
 function Contact() {
   return (
     <section id="contact" className="max-w-6xl mx-auto px-4 py-10">
-      <h3 className="text-2xl font-semibold">Contact / Booking</h3>
+      <h3 className="text-2xl font-semibold">Contact / Book Consultation</h3>
+
       <div className="grid md:grid-cols-2 gap-4 mt-4">
-        <div className="space-y-3">
+        {/* Left Column: Contact Options */}
+        <div className="space-y-4">
+          {/* WhatsApp */}
           <div className="rounded-2xl border p-4 bg-white">
             <div className="text-sm text-gray-500">WhatsApp Business</div>
             <div className="text-lg font-semibold">+91 9875605769</div>
-            <a href="https://wa.me/919875605769" target="_blank" rel="noreferrer"
-              className="inline-block mt-2 px-4 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white">Chat on WhatsApp</a>
+            <a
+              href="https://wa.me/919875605769"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block mt-2 px-4 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white"
+            >
+              Chat on WhatsApp
+            </a>
           </div>
 
+          {/* Call */}
           <div className="rounded-2xl border p-4 bg-white">
             <div className="text-sm text-gray-500">Call</div>
             <div className="text-lg font-semibold">+91 9748289424</div>
-            <a href="tel:+919748289424"
-              className="inline-block mt-2 px-4 py-2 rounded-xl bg-indigo-500 hover:bg-indigo-600 text-white">Call Now</a>
+            <a
+              href="tel:+919748289424"
+              className="inline-block mt-2 px-4 py-2 rounded-xl bg-indigo-500 hover:bg-indigo-600 text-white"
+            >
+              Call Now
+            </a>
           </div>
 
+          {/* Email */}
           <div className="rounded-2xl border p-4 bg-white">
             <div className="text-sm text-gray-500">Email</div>
-            <div className="text-lg font-semibold break-all">goutamchakraborty.astro@gmail.com</div>
-            <a href="mailto:goutamchakraborty.astro@gmail.com"
-              className="inline-block mt-2 px-4 py-2 rounded-xl bg-sky-500 hover:bg-sky-600 text-white">Send Email</a>
-          </div>
-
-          {/* Facebook & Instagram */}
-          <div className="rounded-2xl border p-4 bg-white">
-            <div className="text-sm text-gray-500">Social Media</div>
-            <div className="flex gap-3 mt-2">
-              <a href="https://www.facebook.com/profile.php?id=61579999105515" target="_blank" rel="noreferrer"
-                 className="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white">Facebook</a>
-              <a href="http://instagram.com/goutam_chakraborty_astro/" target="_blank" rel="noreferrer"
-                 className="px-4 py-2 rounded-xl bg-pink-500 hover:bg-pink-600 text-white">Instagram</a>
+            <div className="text-lg font-semibold break-all">
+              goutamchakraborty.astro@gmail.com
             </div>
+            <a
+              href="mailto:goutamchakraborty.astro@gmail.com"
+              className="inline-block mt-2 px-4 py-2 rounded-xl bg-sky-500 hover:bg-sky-600 text-white"
+            >
+              Send Email
+            </a>
+          </div>
+        </div>
+
+        {/* Right Column: Social Media */}
+        <div className="rounded-2xl border p-6 bg-white">
+          <div className="text-sm text-gray-500">Social Media</div>
+          <p className="text-gray-700 text-sm mt-1">
+            Follow Astro Guru Goutam Chakraborty on social platforms:
+          </p>
+          <div className="flex gap-3 mt-4">
+            <a
+              href="https://www.facebook.com/profile.php?id=61579999105515"
+              target="_blank"
+              rel="noreferrer"
+              className="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white"
+            >
+              Facebook
+            </a>
+            <a
+              href="http://instagram.com/goutam_chakraborty_astro/"
+              target="_blank"
+              rel="noreferrer"
+              className="px-4 py-2 rounded-xl bg-pink-500 hover:bg-pink-600 text-white"
+            >
+              Instagram
+            </a>
           </div>
         </div>
       </div>
     </section>
   );
 }
+
 
 function Footer() {
   return (
