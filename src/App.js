@@ -54,10 +54,11 @@ function Header({ scrolled }) {
           <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-amber-300 via-pink-200 to-sky-200 inline-grid place-items-center">
             ✨
           </div>
-          <div className={`${scrolled ? "text-slate-900" : "text-white"} hidden sm:block`}>
-            <div className="font-semibold">Astro Guru Goutam Chakraborty</div>
-            <div className="text-xs opacity-70">Vedic Astrology • Kolkata</div>
-          </div>
+          <div className={`${scrolled ? "text-slate-900" : "text-white"} flex flex-col`}>
+  <div className="font-semibold text-sm md:text-base">Astro Guru Goutam Chakraborty</div>
+  <div className="text-[10px] md:text-xs opacity-80">Vedic Astrology • Kolkata</div>
+</div>
+
         </div>
 
         <nav className="hidden md:flex gap-6 text-sm items-center">
@@ -217,12 +218,14 @@ function Videos() {
         {VIDEOS.map((id) => (
           <div key={id} className="aspect-video rounded-2xl overflow-hidden border bg-black/5 shadow-md">
             <iframe
-              className="w-full h-full"
-              src={`https://www.youtube.com/embed/${id}`}
-              title={`YouTube video ${id}`}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            />
+  className="w-full h-full"
+  src={`https://www.youtube.com/embed/${id}?rel=0&modestbranding=1&playsinline=1`}
+  title={`YouTube video ${id}`}
+  loading="lazy"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+  referrerPolicy="no-referrer-when-downgrade"
+  allowFullScreen
+/>
           </div>
         ))}
       </div>
