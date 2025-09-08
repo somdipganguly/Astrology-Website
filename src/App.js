@@ -155,9 +155,21 @@ const SectionContainer = ({ id, children }) => (
 function SectionDivider({ title }) {
   return (
     <div className="flex items-center justify-center gap-4 mb-6">
-      <img src={SRI} alt="Sri Yantra" className="w-12 h-12" style={{ opacity: 0.28 }} loading="lazy" />
+      <img
+  src="/images/sriyantra.png"
+  alt="Sri Yantra"
+  className="absolute top-5 right-5 w-28 opacity-80 drop-shadow-lg"
+  style={{ filter: "brightness(1.2) contrast(1.1)" }}
+/>
+
       <h2 className="text-2xl font-semibold">{title}</h2>
-      <img src={SRI} alt="Sri Yantra" className="w-12 h-12" style={{ opacity: 0.28 }} loading="lazy" />
+      <img
+  src="/images/sriyantra.png"
+  alt="Sri Yantra"
+  className="absolute top-5 right-5 w-28 opacity-80 drop-shadow-lg"
+  style={{ filter: "brightness(1.2) contrast(1.1)" }}
+/>
+
     </div>
   );
 }
